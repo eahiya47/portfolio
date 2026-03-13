@@ -17,3 +17,46 @@ body {
     text-shadow: 0 0 8px rgba(96, 165, 250, 0.25);
     text-align: left;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.perspective {
+    perspective: 1000px;
+}
+
+.transform-style {
+    transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+    transform: rotateY(180deg);
+}
+
+.backface-hidden {
+    backface-visibility: hidden;
+}
+
+@keyframes spin-reverse {
+from {
+transform: rotate(360deg);
+}
+to {
+transform: rotate(0deg);
+}
+}
+
+.animate-spin-reverse {
+animation: spin-reverse 25s linear infinite;
+}

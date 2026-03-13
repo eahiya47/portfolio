@@ -53,7 +53,7 @@ function Hero() {
                     </motion.div>
 
                     <h1 className="text-6xl md:text-7xl font-bold leading-tight">
-                        I'm{" "}
+                        I'm <br />
                         <span className="text-blue-400">
                             <Typewriter
                                 words={["Mohamed Eahiya"]}
@@ -73,18 +73,17 @@ function Hero() {
                         transition={{ delay: 1.2, duration: 0.8 }}
                         className="text-xl text-gray-300 mt-6 leading-relaxed"
                     >
-                        Computer Science Engineering student passionate about building
-                        scalable full-stack applications using Java, Spring Boot and React.
+                        Curious learner who enjoys exploring ideas, solving problems,
+                        and continuously improving through experimentation and practice.
                     </motion.p>
 
-                    {/* ROLE FADE IN */}
                     <motion.p
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 1.7, duration: 0.8 }}
                         className="text-gray-400 mt-3"
                     >
-                        Backend Developer • REST APIs • Problem Solver
+                        Curiosity • Consistency • Creative Thinking
                     </motion.p>
 
                     {/* BUTTONS FADE IN */}
@@ -122,7 +121,7 @@ function Hero() {
 
                         {/* Internship Line */}
                         <p className="text-sm text-gray-400 mt-2">
-                            Open to internships and collaborative projects
+                            *Open to internships and collaborative projects
                         </p>
 
                     </motion.div>
